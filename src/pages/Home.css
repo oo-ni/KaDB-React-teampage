@@ -1,0 +1,17 @@
+.arrowDiv{
+    height: 4.5rem;
+    width: 30rem;
+    background-color : skyblue;
+    clip-path : polygon(0 0, 80% 0, 100% 50%, 80% 100%, 100% 100%, 0 100%);
+    background : linear-gradient(to right, white, skyblue);
+    font-size : 3rem;
+    margin-left: 10%;
+}
+label{
+    margin-left:2rem;
+}
+.textDiv{
+    font-weight : bold;
+    font-size : xx-large;
+    text-align: center;
+}
