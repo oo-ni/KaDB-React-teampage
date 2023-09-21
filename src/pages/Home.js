@@ -27,6 +27,7 @@ const Home = () => {
                 <div>&#10077;</div>
                 {catchphraseText}
                 <div>&#10078;</div> 
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             </div>
         </div>
     )
