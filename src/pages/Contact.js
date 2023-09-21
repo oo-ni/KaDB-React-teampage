@@ -109,7 +109,7 @@ const styles = {
   textVisible: {
     opacity: 1,
     transform: 'translateY(0)',
-    transition: 'opacity 5s ease, transform 5s ease',
+    transition: 'opacity 2s ease, transform 2s ease',
   },
 
 

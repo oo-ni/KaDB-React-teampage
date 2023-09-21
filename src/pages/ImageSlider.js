@@ -3,7 +3,7 @@ import './ImageSlider.css';
 
 const ImageSlider = ({ images }) => {
   const imageWidth = 200;
-  const scrollSpeed = 3;
+  const scrollSpeed = 2;
   const numImages = images.length;
 
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -16,10 +16,10 @@ const ImageSlider = ({ images }) => {
 
       console.log(newPosition);
 
-      if (newPosition > 2500) {
+      if (newPosition > 2800) {
         
         sliderRef.current.style.transition = 'none'; 
-        return -imageWidth * (numImages - 1); 
+        return -imageWidth * (numImages - 1) * 2; 
       }
 
       return newPosition;
