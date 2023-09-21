@@ -2,16 +2,16 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
 import 'aos/dist/aos.css';
-import './Home.css'
+import './Vision.css'
 
-const Home = () => {
+const Vision = () => {
     const visionText = '비전 작성'
     const catchphraseText = '키보드로 예술을 펼치다'
     useEffect(()=>{
         Aos.init();
     })
     return(
-        <div>
+        <section id="portfolio">
             <div className="arrowDiv"data-aos="fade-right">
                 <label>VISION</label>
             </div>
@@ -28,8 +28,8 @@ const Home = () => {
                 {catchphraseText}
                 <div>&#10078;</div> 
             </div>
-        </div>
+        </section>
     )
 }
 
-export default Home;
+export default Vision;
