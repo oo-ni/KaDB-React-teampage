@@ -12,6 +12,10 @@ const Home = () => {
     })
     return(
         <div>
+            <div class="container d-flex align-items-center flex-column">
+                <img src="assets/img/team_logo_1.png" alt="..." />
+                <img src="assets/img/team_logo_2.png" alt="..." />
+            </div>
             <div className="arrowDiv"data-aos="fade-right">
                 <label>VISION</label>
             </div>
