@@ -17,18 +17,15 @@ const ImageSlider = ({ images }) => {
       console.log(newPosition);
 
       if (newPosition > 2800) {
-        
         sliderRef.current.style.transition = 'none'; 
         return -imageWidth * (numImages - 1) * 2; 
       }
-
       return newPosition;
     });
   };
 
   useEffect(() => {
     const interval = setInterval(slideImages, 10);
-
     return () => clearInterval(interval);
   }, []);
 
