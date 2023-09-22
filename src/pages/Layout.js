@@ -2,6 +2,7 @@ import { Outlet, } from "react-router-dom";
 import Scrollspy from "react-scrollspy";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Vision from "./Vision";
+import Contact from "./Contact"
 
 const Layout = () => {
     return (
@@ -30,7 +31,7 @@ const Layout = () => {
                     <div style={{ height: 500 }}>c</div>
                 </section>
                 <section id="section-3" className="sectionContent">
-                    <div style={{ height: 500 }}>d</div>
+                    <Contact />
                 </section>
             </div>
             <Outlet />
