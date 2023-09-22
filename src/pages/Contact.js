@@ -10,7 +10,7 @@ import img06 from '../img/006.png';
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
 
-import './Contact.css'
+import './Contact.css';
 import ImageSlider from './ImageSlider';
 
 const styles = {
