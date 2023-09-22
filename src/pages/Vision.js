@@ -11,9 +11,9 @@ const Vision = () => {
         Aos.init();
     })
     return(
-        <section id="portfolio">
+        <section>
             <div className="arrowDiv"data-aos="fade-right">
-                <label>VISION</label>
+                <label className="arrowTitle">VISION</label>
             </div>
             <div className="textDiv" data-aos="zoom-in">
                 <div>&#10077;</div>
@@ -21,12 +21,13 @@ const Vision = () => {
                 <div>&#10078;</div>
             </div>
             <div className="arrowDiv" data-aos="fade-right">
-                <label>CATCHPHRASE</label>
+                <label className="arrowTitle">CATCHPHRASE</label>
             </div>
             <div className="textDiv" data-aos="zoom-in">
                 <div>&#10077;</div>
                 {catchphraseText}
                 <div>&#10078;</div> 
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             </div>
         </section>
     )

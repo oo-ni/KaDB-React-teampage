@@ -3,7 +3,6 @@ import Scrollspy from "react-scrollspy";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Vision from "./Vision";
 
-
 const Layout = () => {
     return (
         <>
