@@ -124,4 +124,4 @@ function Contact() {
 }
 
 
-export default Contact;
+export default Team;
