@@ -14,7 +14,6 @@ import './Contact.css'
 import ImageSlider from './ImageSlider';
 
 const styles = {
-
   newLine: {
     marginTop: '5%',
     marginBottom: '5%',
