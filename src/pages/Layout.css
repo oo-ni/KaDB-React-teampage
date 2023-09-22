@@ -1,0 +1,35 @@
+
+.nav-link{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.nav-link:hover{
+    color:#1abc9c;
+}
+.is-current{
+    color: white;
+    background-color: #1abc9c;
+    border-radius:5px;
+}
+.is-current:hover{
+    color:white;
+}
+
+.sectionContent{
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+.homeNavbar{
+    position:sticky;
+    top:-1.5rem;
+    padding-top:2rem;
+    background-color: rgb(44, 62, 80);
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
