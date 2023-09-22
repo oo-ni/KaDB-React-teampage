@@ -74,7 +74,7 @@ const teammembers = [
   },
 ]
 
-function Contact() {
+function Team() {
   return (
     <div>
       <div style={styles.teamMemberContainer} className='kakaofont'>
