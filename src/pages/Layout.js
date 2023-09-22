@@ -2,6 +2,7 @@ import { Outlet, } from "react-router-dom";
 import Scrollspy from "react-scrollspy";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import Vision from "./Vision";
+import Team from "./Team";
 import Contact from "./Contact"
 
 const Layout = () => {
@@ -25,7 +26,13 @@ const Layout = () => {
                     <div style={{ height: 500 }}>소개문</div>
                 </header>
                 <section id="section-1" className="sectionContent">
-                    <Vision/>
+                    <Vision />
+                </section>
+                <section id="section-2" className="sectionContent">
+                    <div style={{ height: 500 }}>c</div>
+                </section>
+                <section id="section-3" className="sectionContent">
+                    <Team />
                 </section>
                 <section id="section-2" className="sectionContent">
                     <div style={{ height: 500 }}>c</div>
