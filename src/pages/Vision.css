@@ -7,7 +7,7 @@
     font-size : 3rem;
     margin-left: 10%;
 }
-label{
+.arrowTitle{
     margin-left:2rem;
 }
 .textDiv{
@@ -15,10 +15,3 @@ label{
     font-size : xx-large;
     text-align: center;
 }
-
-@font-face {
-    font-family: 'mainText';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/60sSTRIPE.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
