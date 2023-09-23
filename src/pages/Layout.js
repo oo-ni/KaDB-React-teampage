@@ -11,9 +11,7 @@ const Layout = () => {
         <>
             <Navbar expand="lg" className="homeNavbar" variant="light">
                 <Container flui="lg">
-                    <Navbar.Brand href="#page-top">
-                        <img src="../img/logo_4.png" height="50px"></img>
-                    </Navbar.Brand>
+                    <Navbar.Brand href="#page-top">KaDB</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Scrollspy className="navbar-nav" items={['section-1', 'section-2', 'section-3']} currentClassName="is-current" componentTag={"div"}>
