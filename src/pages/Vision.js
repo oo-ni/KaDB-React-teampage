@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import './Vision.css';
 
 const Vision = () => {
-    const visionText = '비전 작성'
+    const visionText = '시도하는 용기, 열정있는 배움, 효율적인 소통'
     const catchphraseText = '키보드로 예술을 펼치다'
     useEffect(()=>{
         Aos.init();

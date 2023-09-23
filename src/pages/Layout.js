@@ -41,7 +41,7 @@ const Layout = () => {
                 </div>
                 <div class="text-center p-4">
                     <h5>© 2023 Copyright: KaDB</h5>
-                    <a>Kakao Developer Buddies</a>
+                    <a href="/">Kakao Developer Buddies</a>
                 </div>
             </footer>
             <Outlet />
