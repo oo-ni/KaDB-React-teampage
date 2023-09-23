@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./Home.css"
 import "./KakaoFont.css"
+import Aos from 'aos';
 
 const styles = {
     mainText: {
@@ -47,15 +48,14 @@ function Home(){
     
     useEffect(() => {
         const interval = setInterval(changeImage, 3000);
-    
-    
+        Aos.init()
         return () => clearInterval(interval);
     }, []);
 
 
     return (
-        <>
-            <div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
+        <div>
                 <img src="../img/logo_3.png" height="auto" ></img>
             </div>
             <br/><br/>
@@ -88,7 +88,7 @@ function Home(){
                     <img className="logo" alt="logo_2" src ="../img/logo_2.png" />
                 </div> */}
             </div>
-        </>
+        </div>
     );
 }
 

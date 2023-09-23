@@ -23,7 +23,7 @@ const Layout = () => {
                 </Container>
             </Navbar>
             <div>
-                <header class="p-5 mb-2" id="page-top" className="sectionContent">
+                <header id="page-top" className="sectionContent bg-warning">
                     <Home />
                 </header>
                 <section id="section-1" className="sectionContent">
@@ -34,9 +34,6 @@ const Layout = () => {
                 </section>
                 <section id="section-3" className="sectionContent">
                     <Team />
-                </section>
-                <section id="section-4" className="sectionContent">
-                    <div style={{ height: 500 }}>c</div>
                 </section>
             </div>
             <footer class="bg-warning text-center text-white">
