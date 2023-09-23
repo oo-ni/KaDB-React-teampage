@@ -39,7 +39,7 @@ const styles = {
 
 function Home(){
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [isTextVisible, setIsTextVisible] = useState(false);
+    const [isTextVisible, setIsTextVisible] = useState(true);
 
     const changeImage = () => {
         setCurrentImageIndex((prevIndex) => (prevIndex + 1) % 2);
@@ -53,36 +53,16 @@ function Home(){
     }, []);
 
 
-    const handleScroll = () => {
-        const textContainer = document.getElementById('textContainer');
-        if (textContainer) {
-            const rect = textContainer.getBoundingClientRect();
-            const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
-            setIsTextVisible(isVisible);
-        }
-    };
-    
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-        window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
-
-
     return (
         <>
-            <br/>
             <div>
-                <img src="../img/logo_5.png" height="auto" ></img>
+                <img src="../img/logo_3.png" height="auto" ></img>
             </div>
             <br/><br/>
             <div
             style={{
                 ...(isTextVisible ? styles.textVisible : styles.textHidden),
             }}>
-            </div>
             {/* 이 div로 아래 태그들 감싸면 될 줄 알았는데... 안되네요 ㅠ ㅠ  */}
                 {/* <div style={styles.mainText}>
                     KaDB
@@ -107,6 +87,7 @@ function Home(){
                     <br/><br/>
                     <img className="logo" alt="logo_2" src ="../img/logo_2.png" />
                 </div> */}
+            </div>
         </>
     );
 }
