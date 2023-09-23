@@ -4,7 +4,7 @@ import "./KakaoFont.css"
 import imgkim from '../img/imgkim.jpg'
 import imgchae from '../img/imgchae.jpg'
 import imgyoon from '../img/imgyoon.jpg'
-import imgjang from '../img/imgjang.png'
+import imgjang from '../img/imgjang.jpg'
 import imgkang from '../img/imgkang.jpg'
 
 const styles = {
@@ -67,10 +67,10 @@ const teammembers = [
   {
     namedepart: "장현화/컴퓨터공학과",
     img: imgjang,
-    email: "ex@example.com",
-    git: "ex@example.com",
-    mbti: "~~~~",
-    word: "한마디",
+    email: "jjhh0920@naver.com",
+    git: "https://github.com/jjhh0920",
+    mbti: "ISFJ",
+    word: "다들 화이팅!!",
   },
 ]
 
