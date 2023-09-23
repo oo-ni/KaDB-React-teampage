@@ -16,8 +16,8 @@ const Layout = () => {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Scrollspy className="navbar-nav" items={['section-1', 'section-2', 'section-3']} currentClassName="is-current" componentTag={"div"}>
                             <Nav.Link href="#section-1">Vision</Nav.Link>
-                            <Nav.Link href="#section-2">Mates</Nav.Link>
-                            <Nav.Link href="#section-3">Others</Nav.Link>
+                            <Nav.Link href="#section-2">Others</Nav.Link>
+                            <Nav.Link href="#section-3">Mates</Nav.Link>
                         </Scrollspy>
                     </Navbar.Collapse>
                 </Container>
